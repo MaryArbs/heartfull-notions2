@@ -9,4 +9,4 @@ class User < ApplicationRecord
     validates :email, uniqueness: { message: 'is already in use. Try again!' }
     validates_presence_of :username, :email, :password
 end
-end
+
