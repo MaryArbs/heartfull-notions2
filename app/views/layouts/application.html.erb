@@ -39,9 +39,30 @@
           <h1 class="title">
             <%= yield :page_title %>
           </h1>
+          <h2 class="subtitle">
+           Let's share the little moments that fill our hearts with joy.
+          </h2>
         </div>
       </div>
-    </section>
-    <%= yield %>
+      </section>
+      <%= yield %> 
+      <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                  <article class="tile is-child notification is-white">
+                      <p class="title">What brings you joy?</p>
+                      <figure class="image is-4by3">
+                          <img src="https://picsum.photos/640/480/?random" alt="Description">
+                      </figure>
+                  </article>
+              </div>
+          </div>
+          <div class="tile is-parent is-shady">
+          <article class="tile is-child notification is-white">
+              <p class="title">Share your heart-full notions:</p>
+              <div class="content">
+                  <p>Share your stories here. We want to hear about the moments, small or large, that make your heart smile. You know what I mean? The smells, the sounds, the feels, of the people and places that remind you that kindness matters, and love is most imortant. Click 'Create New Post' from the menu, and let your thoughts flow.</p>
+              </div>
+          </article>
+      </div>
   </body>
 </html>
