@@ -11,11 +11,5 @@ class User < ApplicationRecord
 end
 
 
-
-class User < ApplicationRecord
-    validates :username, presence: true
-end
-   
-  User.create(username: "MaryArbs").valid? # => true
-  User.create(username: nil).valid? # => false
+  
   
