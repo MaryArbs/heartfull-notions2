@@ -10,10 +10,10 @@ Rails.application.routes.draw do
   end
  
 
-  get '/signup', to: 'users#new', as: 'signup'
-  post '/signup', to: 'users#create'
-  delete '/logout', to: 'sessions#destroy', as: 'logout'
+  # get '/signup', to: 'users#new', as: 'signup'
+  # post '/signup', to: 'users#create'
+  # delete '/logout', to: 'sessions#destroy', as: 'logout'
 
-  get '/login', to: 'sessions#new', as: 'login'
-  post '/login', to: 'sessions#create'
+  # get '/login', to: 'sessions#new', as: 'login'
+  # post '/login', to: 'sessions#create'
 end
